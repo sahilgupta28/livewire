@@ -9,6 +9,11 @@ class Welcome extends Component
     public $name = 'sahil';
     public $loud = false;
     public $greeting = ['Hello'];
+
+    public function mount($name)
+    {
+        $this->name = $name;
+    }
     public function render()
     {
         return view('livewire.welcome');

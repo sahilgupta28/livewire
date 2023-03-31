@@ -4,7 +4,7 @@
     @livewireStyles
     </head>
     <body>
-        @livewire('welcome')
+        @livewire('welcome', ['name' => 'foo'])
 
         @livewireScripts
     </body>
