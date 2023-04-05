@@ -10,6 +10,9 @@ class Welcome extends Component
     public $loud = false;
     public $greeting = ['Hello'];
 
+
+    public $names = ['sahil', 'sarab', 'pankaj'];
+
     public function mount($name)
     {
         $this->name = $name;
